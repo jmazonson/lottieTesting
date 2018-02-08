@@ -1,0 +1,29 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta charset="UTF-8">
+
+<head>
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+
+<body>
+  <!-- build:scripto -->
+  <script src="js/lottie.js"></script>
+
+<div id="lottie"></div>
+
+<script>
+  var params = {
+    container: document.getElementById('lottie'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'js/data.json'
+  };
+
+  var anim;
+
+  anim = lottie.loadAnimation(params);
+</script>
+</body>
+
+</html>
